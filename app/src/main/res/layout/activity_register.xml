@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD700"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/registerLogo"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:src="@drawable/regi"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/registerAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Free 2 Move"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        android:textColor="#000"
+        android:layout_gravity="center" />
+
+    <!-- Register Label -->
+    <TextView
+        android:id="@+id/registerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:text="Full Name"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/registerName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:padding="7dp"
+        android:inputType="text" />
+
+    <!-- Email Input -->
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:text="Email"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:padding="7dp"
+        android:inputType="textEmailAddress" />
+
+    <!-- Phone Number Input -->
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:text="Phone number"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/registerPhoneNumber"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:padding="7dp"
+        android:inputType="phone" />
+
+    <!-- Password Input -->
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:text="Password"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:padding="7dp"
+        android:inputType="textPassword" />
+
+    <!-- Confirm Password Input -->
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:text="Confirm password"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/registerConfirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:padding="7dp"
+        android:inputType="textPassword" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:backgroundTint="#000"
+        android:textColor="#FFF" />
+
+    <!-- Login Option -->
+    <TextView
+        android:id="@+id/registerLoginLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="You have an account? Login"
+        android:textSize="16sp"
+        android:textColor="#007BFF"
+        android:layout_gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Free2Move</string>
+
+    <string-array name="vehicle_types">
+        <item>Car</item>
+        <item>Bike</item>
+        <item>Scooter</item>
+    </string-array>
+
+    <!-- Add car models array -->
+    <string-array name="car_models">
+        <item>Toyota</item>
+        <item>Honda</item>
+        <item>Mitsubishi</item>
+        <item>Isuzu</item>
+    </string-array>
+
+    <!-- Add bike models array -->
+    <string-array name="bike_models">
+        <item>Yamaha FZ-S</item>
+        <item>Honda Dio</item>
+        <item>Royal Enfield Classic 350</item>
+        <item>Yamaha Ray ZR</item>
+    </string-array>
+
+    <string-array name="tuktuk_models">
+        <item>Bajaj</item>
+        <item>TVS</item>
+        <item>Mahindra</item>
+        <item>Piaggio</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "798735390446",
+    "project_id": "free2move-82a3b",
+    "storage_bucket": "free2move-82a3b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798735390446:android:92f2d9a0dd4543308945ff",
+        "android_client_info": {
+          "package_name": "com.example.free2move"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeb3lCiQyn0uPXmB6USOQ3bHxe-Dc3zkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

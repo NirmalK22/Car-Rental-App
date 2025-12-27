@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFD700"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Free 2 Move"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:textColor="#000"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/pay1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_background"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/paymentLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Select your payment type:"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:gravity="start" />
+
+    <RadioGroup
+        android:id="@+id/paymentOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <RadioButton
+            android:id="@+id/cashOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/cardOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card"
+            android:textColor="#000"
+            android:layout_marginStart="20dp" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/cardOptionsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#000"
+        android:text="Pay"
+        android:textColor="#FFF"
+        android:padding="10dp" />
+
+</LinearLayout>
